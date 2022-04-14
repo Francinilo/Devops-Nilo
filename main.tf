@@ -26,6 +26,6 @@ resource "azurerm_resource_group" "example12" {
 }
 # Create a resource group
 resource "azurerm_resource_group" "example13" {
-  name     = "example-resources13"
+  name     = "example-resources133"
   location = "West Europe"
 }
