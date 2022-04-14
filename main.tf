@@ -15,17 +15,17 @@ provider "azurerm" {
 }
 
 # Create a resource group
-resource "azurerm_resource_group" "example" {
-  name     = "example-resources"
+resource "azurerm_resource_group" "example10" {
+  name     = "example-resources1"
   location = "West Europe"
 }
 # Create a resource group
-resource "azurerm_resource_group" "example2" {
-  name     = "example-resources2"
+resource "azurerm_resource_group" "example12" {
+  name     = "example-resources12"
   location = "West Europe"
 }
 # Create a resource group
-resource "azurerm_resource_group" "example3" {
-  name     = "example-resources3"
+resource "azurerm_resource_group" "example13" {
+  name     = "example-resources13"
   location = "West Europe"
 }
